@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Oussama-Sfiri/LeetCode_Solutions/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Oussama-Sfiri/LeetCode_Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/Oussama-Sfiri/LeetCode_Solutions/tree/master/0027-remove-element) |
 | [0088-merge-sorted-array](https://github.com/Oussama-Sfiri/LeetCode_Solutions/tree/master/0088-merge-sorted-array) |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Oussama-Sfiri/LeetCode_Solutions/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/Oussama-Sfiri/LeetCode_Solutions/tree/master/0169-majority-element) |
 ## Divide and Conquer
 |  |
