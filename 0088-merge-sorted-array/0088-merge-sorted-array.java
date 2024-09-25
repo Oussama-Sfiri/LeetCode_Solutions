@@ -1,5 +1,6 @@
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
+        // Pointer for the last position in nums1 array
         int last = m + n - 1;
 
         // Traverse both arrays from the end, and fill nums1 from the back
