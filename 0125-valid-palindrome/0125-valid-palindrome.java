@@ -9,10 +9,24 @@ class Solution {
                 str.append(c);
             }
         }
-        for (int i=0; i<str.length(); i++){
-            char ch= str.charAt(i);
-            reversedStr = ch + reversedStr;
+
+        int left = 0;
+        int right = str.length() - 1;
+
+        while (left < right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
         }
-        return str.toString().equals(reversedStr.toString());
+
+        return true;
+
+        // for (int i = 0; i < str.length(); i++){
+        //     char ch= str.charAt(i);
+        //     reversedStr = ch + reversedStr;
+        // }
+        // return str.toString().equals(reversedStr.toString());
     }
 }
