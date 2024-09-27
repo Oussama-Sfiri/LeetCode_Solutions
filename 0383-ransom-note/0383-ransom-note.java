@@ -12,7 +12,7 @@ class Solution {
             ht2.put(c, ht2.getOrDefault(c, 0) + 1);
         }
         Set<Character> setOfKeys = ht2.keySet();
-        for (Character key : setOfKeys) {
+        for (char key : setOfKeys) {
             if (ht1.getOrDefault(key, 0) < ht2.get(key)) {
                 return false;
             }
