@@ -3,7 +3,7 @@ import java.util.Set;
 
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
-                HashMap<Character, Integer> magaHash = new HashMap<>();
+        HashMap<Character, Integer> magaHash = new HashMap<>();
 
         for (char c : magazine.toCharArray()) {
             magaHash.put(c, magaHash.getOrDefault(c, 0) + 1);
